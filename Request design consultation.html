@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Design Consultation</title>
+	<link rel="stylesheet" href="Request design consultation.css">
+	
+</head>
+<body>
+
+    <h2>Request Design Consultation</h2>
+
+    <form id="consultationForm" action="designer homepage.html" method="post">
+
+        <label for="roomType">Room Type:</label>
+        <select id="roomType" name="roomType">
+            <option value="livingRoom">Living Room</option>
+            <option value="bedroom">Bedroom</option>
+            <option value="kitchen">Kitchen</option>
+            <!-- Add more room types as needed -->
+        </select><br>
+
+        <label for="width">Room Width (meters):</label>
+        <input type="text" id="width" name="width" placeholder="Enter width" required><br>
+
+        <label for="length">Room Length (meters):</label>
+        <input type="text" id="length" name="length" placeholder="Enter length" required><br>
+
+        <label for="designCategory">Design Category:</label>
+        <select id="designCategory" name="designCategory">
+            <option value="modern">Modern</option>
+            <option value="vintage">Vintage</option>
+            <option value="minimalist">Minimalist</option>
+           
+        </select><br>
+
+        <label for="colorPreferences">Color Preferences:</label>
+        <input type="text" id="colorPreferences" name="colorPreferences" placeholder="Enter color preferences"><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>

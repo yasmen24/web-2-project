@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Consultation Page</title>
+    <link rel="stylesheet" href="Design consultation page.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Design Consultation</h2>
+		
+
+        <!-- 12333Display Client's Request Information -->
+        <div class="client-info">
+            <p id="roomT"><strong>Room Type :Bedroom</strong></p>
+            <p id="room"><strong>Room Dimensions:4x5m</strong></p>
+            <p id="designC"><strong>Design Category :Modern</strong></p>
+            <p id="colorP"><strong>Color Preferences:white, gray</strong></p>
+        </div>
+
+        <hr>
+
+        <!-- Designer's 111122Consultation Form -->
+        <form id="designerConsultationForm" action="Client homepage.html" method="post">
+
+            <h2>Consultation</h2>
+
+            <label for="designDescription">Design Consultation:</label>
+            <textarea id="designDescription" name="designDescription" rows="4" placeholder="Enter your design consultation here..." required></textarea>
+
+            <label for="designImage">Design Image:</label>
+            <input type="file" id="designImage" name="designImage" accept="image/*" required>
+
+            <button id="button"type="submit">Send</button>
+
+        </form>
+
+    </div>
+</body>
+</html>
