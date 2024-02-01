@@ -1,0 +1,179 @@
+.theme2 {
+	color:blue;
+	background: gray;
+}
+
+.theme1 header {
+	  background-color: #4e32a8;
+	color: #fff;
+}
+
+
+.theme1 footer {
+	  background-color: #4e32a8;
+	color: #fff;
+}
+
+.theme2 header {
+    background-color: #555;
+    color: black;
+}
+
+.theme2 footer {
+    background-color: #555;
+	color: black;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+
+    text-align: center;
+
+    background-color:  rgb(149, 159, 135);
+
+    color: #fff;
+
+    display: flex;  
+
+    justify-content: space-between; 
+
+    align-items: center; 
+
+    padding: 1rem 2rem;
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+
+
+.logo-title {
+
+    display: flex;
+
+    align-items: center; 
+
+    gap: 10px; 
+
+}
+
+
+
+#logo {
+
+    width: 200px;
+    height: 100px;
+
+}
+
+
+
+.navbar {
+
+    display: flex;
+
+    gap: 15px;
+}
+
+
+
+.navbar a {
+
+    text-decoration: none;
+
+
+    transition: color 0.3s ease;
+
+}
+
+
+
+.navbar a:hover {
+
+    color: #0077cc;
+
+}
+
+
+
+
+
+header img {
+
+    max-width: 100px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+nav a {
+
+    margin: 0 15px;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    transition: color 0.3s ease;
+
+}
+
+
+
+nav a:hover {
+
+    color: #0077cc;
+
+}
+
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: rgb(149, 159, 135);
+
+    
+	
+	 gap: 15px;
+
+     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+
+
+footer a {
+
+    text-decoration: none;
+
+    color: #0077cc;
+
+    transition: color 0.3s ease;
+
+}
+
+
+
+footer a:hover {
+
+    color: #0055a5;
+
+}
+
+* {
+	
+	font-family: italic;
+}
