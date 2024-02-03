@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function redirectToHomepage(userType) {
-        const homepageUrl = userType === "designer" ? "designer_home.html" : "client_home.html";
+        const homepageUrl = userType === "designer" ? "DesignerHomepage.html" : "Clinet.html";
         window.location.href = homepageUrl;
     }
 });
-
