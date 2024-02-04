@@ -177,8 +177,8 @@ body{
 .container{
 	background-color: white;
 	opacity:0.97;
-	width:40%;/*95%*/
-	min-width:420px;
+	width:40vw;/*95%*/
+	height:50vh;
 	padding:35px 50px;
 	transform:translate(-50%,-50%);
 	position:absolute;
