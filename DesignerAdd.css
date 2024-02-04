@@ -177,8 +177,8 @@ body{
 .container{
 	background-color: white;
 	opacity:0.97;
-	width:40vw;/*95%*/
-	height:50vh;
+	width:40%;/*95%*/
+	min-width:420px;
 	padding:35px 50px;
 	transform:translate(-50%,-50%);
 	position:absolute;
@@ -190,6 +190,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 0 20px rgba(41, 41, 41, 0.25);
+	padding:7%;
 }
 /*
 .container {
