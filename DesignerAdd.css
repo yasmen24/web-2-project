@@ -160,17 +160,18 @@ textarea{
 */
 
 
-*,*:before,*:after{
-	padding:0;
-	margin:0;
+*{
+	padding:0%;
+	margin:0%;
 	box-sizing: border-box;
 }
 
 body{
-	background-image: url("formBackground.jpg");
+	background-image: url("image/formBackground.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-size:cover;
+	background-repeat: no-repeat;
 }
 
 .container{
@@ -184,12 +185,12 @@ body{
 	left:50%;
 	top:50%;
 	border-radius:10px;
-	box-shadow:20px 30px 25px rgba(0,0,0,0.15);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 0 20px rgba(41, 41, 41, 0.25);
+	padding:7%;
 }
 /*
 .container {
@@ -213,13 +214,6 @@ form{
 	margin:30px auto 0 auto;
 }
 
-.row{
-	width:100%;
-	display:grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-	grid-gap:20px 30px;
-	margin-bottom:20px;
-}
 
 label, option{
 	color:#8A9A5B;
@@ -229,7 +223,7 @@ label, option{
 textarea, input,select,select#DesignSelect{
 	width:100%;
 	font-weight:400;
-	padding:8px 10px;
+	padding:10px 10px;
 	border-radius:5px;
 	border:1.2px solid #c4cae0;
 	margin-top:5px;
