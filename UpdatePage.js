@@ -1,6 +1,5 @@
 
-var btn=document.getElementsByClassName("btn")[0];
-
-btn.onclick = function() {
-    window.location.href = "DesignerHomepage.html";
-  };
+function redirectToPages() {
+  // Redirect to the desired page
+  window.location.href = "DesignerHomepage.html";
+}

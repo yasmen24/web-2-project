@@ -9,9 +9,3 @@ onload=function(){
 
 }
 
-
- function TableFilter(){
-filterOption=document.getElementsByName("drop-downMenue");
-
-
-}

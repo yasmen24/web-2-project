@@ -12,13 +12,13 @@
 
     
     <section>
-        <form action="" method="post" name="ProjectUpdateForm">
+        <form action="#" method="post" name="ProjectUpdateForm"  onsubmit="redirectToPages()">
         <h1> Edit Project </h1>
 
             <!--project name-->
             <div class="Pname">
                 <label for="ProjectName" >Project Name:</label>
-                <input type="text" id="ProjectName"><br>
+                <input type="text" id="ProjectName" value="bedroom"><br>
             </div>
             <!--project logo-->
             <div class="Plogo">
@@ -30,6 +30,7 @@
             <div class="Pmenue">
             <label for="drop-downMenue">Select Category:</label>
                         <select name="drop-downMenue" class="drop-downMenue">
+                            <option value="Minimalist">Minimalist</option>
                             <option value="Modern">Modern</option>
                             <option value="Country">Country</option>
                             <option value="Coastal">Coastal</option>
@@ -38,7 +39,7 @@
                     </div>        
             <!--description (text area)-->
             <div class="Pdescription">
-            <textarea  placeholder="design description..." cols="30%" rows="5%"  ></textarea><br>
+            <textarea  placeholder="design description..." cols="30%" rows="5%"  >A simple bedroom with clean lines, highlighted by a white bed</textarea><br>
             </div>
                 <!--submit button-->
 
