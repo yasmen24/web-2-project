@@ -8,7 +8,7 @@
 body{
   padding:0%;
   margin:0%;
-background-image:url("temp-images/formBackground.jpg") ;
+background-image:url("image/formBackground.jpg") ;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -29,7 +29,7 @@ transform: translate(-50%, -50%);
 form{
   display: flex;
   flex-direction: column;
-  background-color: #b8ae99bd;
+  background-color:rgba(245, 245, 220, 0.7);
   border-radius: 3%;
   box-shadow: 10px 10px 20px 5px #959593d0;
 width: 55vw;
