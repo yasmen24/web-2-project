@@ -39,7 +39,6 @@ header {
     text-align: center;
 
     background-color:  rgb(149, 159, 135);
-
     color: #fff;
 
     display: flex;  
@@ -143,13 +142,11 @@ nav a:hover {
 
 
 footer {
-    
-    display: flex;
+
     position: relative; 
-    bottom: 0;
+    top: 30vh;
      width: 100%;
-    align-items: center;
-    justify-content: center;
+     height: 20;
    text-align: center;
    padding: 20px;
 
