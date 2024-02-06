@@ -1,4 +1,3 @@
-
 var btn=document.getElementsByClassName("btn")[0];
 console.log(btn);
 

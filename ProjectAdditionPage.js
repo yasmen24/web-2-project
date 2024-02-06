@@ -1,9 +1,7 @@
-
-var btn=document.getElementsByClassName("btn")[0];
-console.log(btn);
+var btn=document.getElementById("btn");
 
 
-
+console.log(btn)
 
 btn.addEventListener("click", function() {
   // Change the URL to the desired page
